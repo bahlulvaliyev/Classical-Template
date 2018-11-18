@@ -5,15 +5,21 @@
     background-color: #212d3a;
 }
 .first-head-img {
+    text-align: center;
     border: 1px solid #2e3f51;
     border-radius: 100%; 
     width: 26px;
     height: 26px;
     background-color: #2e3f51;
+    color:#636f7f;
+    padding-top: 14%;
+    transition: 0.3s;
 }
+
 .first-head-img:hover {
     background-color: #db4a39;
     color: #ffffff;
+    cursor: pointer;
 }
 .first-head-img img{
     padding: 5px;
@@ -94,10 +100,18 @@ input:hover {
     color: #4a4a4a;
     padding-top: 35px;
 }
+.twice-header-size h3:hover{
+    transition: 0.5s;
+    cursor: pointer;
+}
 .twice-header-size h5{
     font-size: 9px;
     color: #999999;
     padding-bottom: 25px;
+}
+.twice-header-size h5:hover{
+    transition: 0.5s;
+    cursor: pointer;
 }
 .twice-header-size li{
     margin-left: 20px;
@@ -105,12 +119,16 @@ input:hover {
 }
 .twice-header-size li:hover{
     color:#212d3a;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .first-section{
     background-color: #2e3f51;
 }
+
 .first-section-container-backgr{
-    background-color: #303030;
+    background-image: url("./../images/lee-child-personal-960x450.jpg");
+    background-repeat: no-repeat;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -126,8 +144,17 @@ input:hover {
     background-color: #2f3944;
     height: 450px;
 }
+.first-section-container-backgr i:hover{
+    transition: 0.5s;
+    cursor: pointer;
+}
 .readMore{
     text-align: right;
+}
+.readMore:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
 }
 .first-section .col-md-8 h1{
     text-align: center;
@@ -149,11 +176,21 @@ input:hover {
     color: #505050;
     font-size: 20px;
 }
+.twice-section .col-md-8 a{
+    text-decoration: none;
+}
+.twice-section .col-md-8 p:hover{
+    cursor: pointer;
+}
 .twice-section .col-md-2 i{
     color: #2e3f51;
     font-size: 90px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.twice-section .col-md-2 i:hover{
+    transition: 0.5s;
+    cursor: pointer;
 }
 .tw-sec-arrow-right{
     text-align: right;
@@ -175,10 +212,14 @@ input:hover {
 .thr-sec-color1{
     color: #807d77;
 }
+.thr-sec-a:hover{
+    text-decoration: none;
+}
 .thrice-section-img{
     background-color:#333333;
     margin-top: 15px;
     margin-bottom: 15px; 
+    cursor: pointer;
 }
 .thr-sec-shadow-img img{
     box-shadow: 1px 1px #b0b0b0; 
@@ -189,9 +230,10 @@ input:hover {
 }
 .thr-sec-little-img{
     background-color: #333333;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    margin-right: 15px;
+    margin-bottom: 2px;
     float: left;
+    cursor: pointer;
 }
 
 .thr-sec-little-div p{
