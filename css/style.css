@@ -127,22 +127,30 @@ input:hover {
 }
 
 .first-section-container-backgr{
-    background-image: url("./../images/lee-child-personal-960x450.jpg");
-    background-repeat: no-repeat;
+
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.first-section .col-md-4 i{
+.first-section .col-mmm-1 i{
     font-size: 20px;
     height: 30px;
     width: 15px;
     color: #ffffff;
     
 }
-.first-section .col-md-4{
+.first-section .col-mmm-1{
     padding: 20px;
-    background-color: #2f3944;
     height: 450px;
+}
+.first-sec-div-obs{
+    height: 450px;
+    position: absolute;
+    left: 8.1%;
+    top: 42.4%;
+    background-color: #2f3944;
+    opacity: 0.8;
+    padding-left:0.6%;
+    padding-right: 0.6%;
 }
 .first-section-container-backgr i:hover{
     transition: 0.5s;
